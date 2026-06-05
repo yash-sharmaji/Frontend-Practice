@@ -54,6 +54,8 @@ gridButton.addEventListener("click" , ()=>{
             let col = document.createElement("div");
             col.classList.add("gridCol");
             col.setAttribute("id", `gridCol${count}`);
+
+            
             col.addEventListener(events[deviceType].down, ()=>{
                 draw = true;
                 if(erase){
