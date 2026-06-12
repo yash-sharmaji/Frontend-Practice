@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(243, 251, 123);
+}
+.options-btn{
+    background-color: rgb(129, 214, 246);
+    text-align: center;
+    padding : 10px;
+    position: absolute;
+    top : 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border : 2px solid black;
+    box-shadow: 5px 5px 10px black;
+}
