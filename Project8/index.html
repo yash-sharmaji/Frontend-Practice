@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random-Password Generator</title>
+    <link rel = "stylesheet" href="style.css">
+    <link rel = "icon" type="image" href="key-solid-full.svg">
+    <script src="https://kit.fontawesome.com/e1705b93ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="options">
+            <h1>Welcome ! To the Password generator</h1>
+            <h4>Please fill the following conditions</h4>
+            <br>
+
+            <label for="Letters">Password shall contain letters?</label>
+                <input id="Letters" type="radio" name="choice1">Upper-Case
+                <input id="Letters" type="radio" name="choice1">Lower-Case
+                <input id="Letters" type="radio" name="choice1">Both
+                <input id="Letters" type="radio" name="choice1">None
+            <br>
+            <br>
+            <label for="Numbers">Password shall contain numbers</label>
+                <input id="Numbers" type="radio" name="choice">Yes
+                <input id="Numbers" type="radio" name="choice">No
+            <br>
+            <br>
+            <label for="Special">Password shall contain special characters</label>
+                <input id="Special" type="radio" name="choice">Yes
+                <input id="Special" type="radio" name="choice">No
+            <br>
+            <br>
+            <label for="Length">Enter the length of password</label>
+                <input id="Length" type="number" required placeholder="Enter a number">
+            <br>
+            <br>
+            <button id="submit-btn" type="submit">Submit</button>
+            <button id="reset-btn" type="Reset">Reset</button>
+        </div>
+        <p id="Password">Fill the above options please</p>
+    </div>
+</body>
+</html>
