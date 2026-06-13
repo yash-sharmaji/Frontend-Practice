@@ -1,0 +1,61 @@
+*{
+    box-sizing : border-box;
+    padding : 10px;
+    margin : 0px;
+    color : #F8F9FA;
+    text-align: center;
+}
+body {
+    background-color: #121212;
+}
+
+.wrapper {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: #1E1E1E;
+    width: 700px;
+    height: 400px;
+}
+
+h1 {
+    color: #FFB6C1;
+}
+
+h4 {
+    color: #B0B0B0;
+}
+
+label {
+    color: #F8F9FA;
+}
+
+button {
+    background-color: #D63384;
+    color: #F8F9FA;
+    
+}
+
+#Password {
+    background-color: #2B2B2B;
+    color: #FFB6C1;
+}
+#Length {
+    background-color: #FFB6C1;
+    color: #000;
+    
+}
+#submit-btn{
+    transform: translateX(-100%);
+    width:100px
+}
+#reset-btn{
+    transform: translateX(100%);
+    width:100px
+}
+#secret{
+    border : 0px;
+    background-color: #121212;
+    transform : translate(420%);
+}
