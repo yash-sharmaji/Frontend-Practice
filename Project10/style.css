@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin : 0px;
+}
+body{
+    min-width: none;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(169, 56, 31, 0.627);
+    background-image: url(minimalist-space-wallpaper-0p5tp.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper{
+    display: flex;
+    text-align: center;
+    
+    justify-content: center;
+    align-items: center;
+    border : 3px solid;
+    border-radius: 20px;
+    border-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 200px;
+}
+
+.time{
+    display: inline-block;
+    font-size: 70px;
+    font-family: monospace;
+    font-weight: bolder;
+    color:rgb(255, 255, 255);
+}
