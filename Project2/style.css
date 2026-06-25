@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
-    background-color: #FFF8F0;
+    background-color: #fffbf7;
+}
+.body{
+    background-color: #fffbf7;
 }
 .container1{
     display: flex;
