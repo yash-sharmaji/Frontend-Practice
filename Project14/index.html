@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="cloud-solid-full.svg">
+</head>
+<body>  
+    
+    <div class="wrapper">
+        <h1>Weather-Application</h1>
+        <form class="fillform">
+            <input type="text" class="CityInput" placeholder="Enter City" id="City-Name">
+            <button type="Submit">Weather</button>
+        </form>
+        <div class="card" style="display:none">
+
+            <h1 id="Name"></h1>
+            <p class="tempDisplay"></p>
+            <p class="descDisplay"></p>
+            <p class="weatherEmoji"></p>
+            <p class="ErrorDisplay"></p>
+
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
